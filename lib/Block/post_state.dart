@@ -9,10 +9,10 @@ class postState extends Equatable {
 class postLoading extends postState {}
 
 class postLoaded extends postState {
-  final List post;
+  final List Post;
 
-  postLoaded({required this.post});
-  List<Object?> get props => [post];
+  postLoaded({required this.Post});
+  List<Object?> get props => [Post];
 }
 
 class postError extends postState {
